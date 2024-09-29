@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pecita');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.row {
+    min-height: 100vh;
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+.image1 {
+    background: url("./assets/images/1.png");
+    background-position: center center;
+    background-color: rgba(210, 149, 149, 1);
+    background-size: cover;
+}
+
+.image2 {
+    background: url("./assets/images/3.png");
+    background-color: rgba(147, 231, 233, 1);
+    background-position: center center;
+    background-size: cover;
+}
+
+.image3 {
+    background: url("./assets/images/2.png");
+    background-color: rgba(217, 203, 193, 1);
+    background-position: center center;
+    background-size: cover;
+}
+
+.main-text-area>* {
+    padding-top: 50px;
+}
+.title{
+    font-size: 16px;
+}
+.button {
+    background-color: #fff;
+    color: #532121;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.right {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.rightside1 {
+    background-color: rgba(72, 41, 10, 1);
+}
+
+.rightside2 {
+    background-color: rgb(92, 53, 11);
+}
+
+.rightside3 {
+    background-color: rgba(152, 106, 83, 1);
+}
+
+.brand-text {
+    font-family: 'Island Moments', cursive;
+    font-weight: 200;
+    font-size: 3em;
+}
+
+.sloganhead {
+    font-size: 28px;
+    font-family: karma;
+}
+
+.sub-head {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foot {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.navigation {
+    margin-right: 50px;
+}
+@media (min-width: 992px) {
+    .brand-text {
+        font-size: 3em; 
+    }
+
+    .sloganhead {
+        font-size: 28px;
+    }
+
+    .navigation {
+        margin-right: 50px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .image1, .image2, .image3 {
+        min-width: 100px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .image1, .image2, .image3 {
+        min-height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
